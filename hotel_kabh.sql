@@ -1,5 +1,3 @@
---CREATE DATABASE bc_hotel_kabh
--- id_cliente de SMALLINT a BIGINT
 CREATE TABLE clientes (
 	id_cliente BIGINT NOT NULL,
 	nombre_cliente VARCHAR (20) NOT NULL,
