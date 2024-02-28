@@ -72,7 +72,7 @@ CREATE TABLE puestos (
 
 -- Se creó el registro de un puesto
 INSERT INTO puestos (id_puesto,salario)
-	VALUES(1,2500)
+	VALUES(1,2500);
 
 -- Se cambió id_movimiento de SMALLINT a BIGINT
 CREATE TABLE tipos_mov_almacen (
@@ -89,7 +89,7 @@ CREATE TABLE areas (
 
 -- Se creó el registro de un área
 INSERT INTO areas(id_area,descripcion)
-	VALUES(1,'Limpieza')
+	VALUES(1,'Limpieza');
 
 CREATE TABLE tipos_habitacion (
 	id_tipo SMALLINT NOT NULL,
